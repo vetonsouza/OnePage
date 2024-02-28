@@ -1,0 +1,19 @@
+HTML 
+CSS
+JAVA
+NODE JS
+
+HTML Preencher os campos que aparecerão na página
+CSS Estilizar a página
+JAVA lógica do formulário e do botão enviar
+NODE JS Servidor que armazenará os formulários
+
+
+O que falta?
+encaixar a parte lógica
+
+ajustar o tamanho do formulário
+
+vincular com o node.js e tirar dúvidas
+
+ajustar a tela após o botão enviar...

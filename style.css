@@ -1,0 +1,85 @@
+body {
+    background:url('imagens/bkd.jpg') ;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background: url('imagens/fundo.jpg') center/cover no-repeat;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 50px 0;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .card {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 50px;
+    margin: 10px;
+    flex-basis: calc(33.33% - 20px);
+  }
+  .card h2 {
+    color: #000000;
+  }
+  .card p {
+    color: #000000;
+  }
+  
+  
+  footer {
+      background-color: #0a0a0a;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+  }
+  
+  form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: 0 auto;
+  }
+  
+  label {
+      margin-bottom: 8px;
+      font-weight: bold;
+  }
+  
+  input,
+  textarea {
+      padding: 10px;
+      margin-bottom: 16px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      width: 100%;
+      box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+      background-color: #007bff;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+      background-color: #0e1380;
+  }
+  
+  .cta {
+      background-color: #f9f9f9;
+      text-align: center;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(175, 16, 16, 0.1);
+  }
+   
+  
